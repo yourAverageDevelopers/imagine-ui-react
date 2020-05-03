@@ -1,0 +1,19 @@
+{
+  "name": "imagine-ui-react",
+  "version": "1.0.0",
+  "description": "React implementation of Imagine UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourAverageDeveloper/imagine-ui-react.git"
+  },
+  "author": "yourAverageDeveloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourAverageDeveloper/imagine-ui-react/issues"
+  },
+  "homepage": "https://github.com/yourAverageDeveloper/imagine-ui-react#readme"
+}
