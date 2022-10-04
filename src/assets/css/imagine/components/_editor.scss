@@ -1,0 +1,29 @@
+.ui.editor {
+	width: 100%;
+	display: block;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+
+.ui.editor .control {
+	display: inline-block;
+	background: $grey;
+	border: none;
+	padding: 0.5rem;
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		background: $dark-grey;
+	}
+}
+
+.ui.editor .control.active {
+	&:active {
+		background: $dark-grey;
+	}
+}
+
+.ui.editor .content {
+	width: 100%;
+}

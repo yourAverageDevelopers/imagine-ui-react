@@ -1,0 +1,54 @@
+// LOCAL VARIABLES //
+$border: #ddd;
+// $focus: rgb(63, 128, 226);
+$focus: #5996f2;
+
+.ui.input input {
+  padding: 0.714285em 1.142857em;
+  border: 1px solid $border;
+  transition: 0.2s border, box-shadow;
+  border-radius: $border-radius;
+  font-size: $regular;
+
+  &::selection {
+    background: $border;
+  }
+  &:focus {
+    border-color: $focus;
+  }
+}
+
+// VARIATION //
+.ui.circular.input input {
+  border-radius: 500rem;
+}
+// VARIATION //
+
+// SIZES //
+
+.ui.input.tiny input {
+  font-size: $tiny;
+}
+
+.ui.input.small input {
+  font-size: $small;
+}
+
+.ui.input.big input {
+  font-size: $big;
+}
+
+.ui.input.massive input {
+  font-size: $massive;
+}
+// SIZES //
+
+// RAISED //
+.ui.raised.input input {
+  box-shadow: $raised;
+}
+
+.ui.fluid.input input {
+  width: 100%;
+}
+// RAISED //

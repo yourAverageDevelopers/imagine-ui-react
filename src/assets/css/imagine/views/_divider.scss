@@ -1,0 +1,21 @@
+.ui.divider {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	height: 1px;
+	background: $grey;
+	border-radius: 100rem;
+}
+
+.ui.hidden.divider {
+	background: transparent;
+}
+
+.ui.compact.divider {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.ui.very.compact.divider {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}

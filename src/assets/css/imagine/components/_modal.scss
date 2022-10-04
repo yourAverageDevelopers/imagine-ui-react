@@ -1,0 +1,33 @@
+.ui.modal {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 11;
+	padding: 1rem;
+	background: white;
+	border-radius: $border-radius;
+	transform: scale(0);
+	opacity: 0;
+	transition: 0.5s transform, 0.5s opacity;
+}
+
+.ui.active.modal {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.ui.active.dimmer {
+	background: rgba(0, 0, 0, 0.8);
+	display: block;
+}
+
+.dimmer {
+	transition: 0.5s background;
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 10;
+}

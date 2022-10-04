@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "es2015"],
+		"baseUrl": "src",
+		"paths": {
+			"~/utils": ["utils"],
+			"~/types": ["types"],
+			"~/assets": ["assets"],
+			"~/components": ["components"],
+			"~/imagine": ["components/imagine"],
+			"~/itypes": ["components/imagine/types"],
+			"~/iutils": ["components/imagine/utils"]
+		},
+		"outDir": "demo/src/imagine",
+		"sourceMap": true,
+    "allowJs": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "target": "ES2015",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true,
+    "noUnusedParameters": true,
+		"noImplicitAny": true
+  },
+  "exclude": ["node_modules", "cypress"]
+}

@@ -1,0 +1,341 @@
+.column {
+	display: inline-block;
+}
+
+[class*='one column'],
+[class*='one otherwise column'] {
+	width: 6.25% !important;
+}
+
+[class*='two column'],
+[class*='two otherwise column'] {
+	width: 12.5% !important;
+}
+
+[class*='three column'],
+[class*='three otherwise column'] {
+	width: 18.75% !important;
+}
+[class*='four column'],
+[class*='four otherwise column'] {
+	width: 25% !important;
+}
+
+[class*='five column'],
+[class*='five otherwise column'] {
+	width: 31.25% !important;
+}
+
+[class*='six column'],
+[class*='six otherwise column'] {
+	width: 37.5% !important;
+}
+
+[class*='seven column'],
+[class*='seven otherwise column'] {
+	width: 43.75% !important;
+}
+
+[class*='eight column'],
+[class*='eight otherwise column'] {
+	width: 50% !important;
+}
+
+[class*='nine column'],
+[class*='nine otherwise column'] {
+	width: 56.25% !important;
+}
+
+[class*='ten column'],
+[class*='ten otherwise column'] {
+	width: 62.5% !important;
+}
+
+[class*='eleven column'],
+[class*='eleven otherwise column'] {
+	width: 68.75% !important;
+}
+
+[class*='twelve column'],
+[class*='twelve otherwise column'] {
+	width: 75% !important;
+}
+
+[class*='thirteen column'],
+[class*='thirteen otherwise column'] {
+	width: 81.25% !important;
+}
+
+[class*='fourteen column'],
+[class*='fourteen otherwise column'] {
+	width: 87.5% !important;
+}
+
+[class*='fifteen column'],
+[class*='fifteen otherwise column'] {
+	width: 93.75% !important;
+}
+
+[class*='sixteen column'],
+[class*='sixteen otherwise column'] {
+	width: 100% !important;
+}
+
+// ============================ GRID MEDIA QUERIES ============================ //
+
+@media (min-width: 1920px) {
+	[class*='one widescreen'] {
+		width: 6.25% !important;
+	}
+	[class*='two widescreen'] {
+		width: 12.5% !important;
+	}
+	[class*='three widescreen'] {
+		width: 18.75% !important;
+	}
+	[class*='four widescreen'] {
+		width: 25% !important;
+	}
+	[class*='five widescreen'] {
+		width: 31.25% !important;
+	}
+	[class*='six widescreen'] {
+		width: 37.5% !important;
+	}
+	[class*='seven widescreen'] {
+		width: 43.75% !important;
+	}
+	[class*='eight widescreen'] {
+		width: 50% !important;
+	}
+	[class*='nine widescreen'] {
+		width: 56.25% !important;
+	}
+	[class*='ten widescreen'] {
+		width: 62.5% !important;
+	}
+	[class*='eleven widescreen'] {
+		width: 68.75% !important;
+	}
+	[class*='twelve widescreen'] {
+		width: 75% !important;
+	}
+	[class*='thirteen widescreen'] {
+		width: 81.25% !important;
+	}
+	[class*='fourteen widescreen'] {
+		width: 87.5% !important;
+	}
+	[class*='fifteen widescreen'] {
+		width: 93.75% !important;
+	}
+	[class*='sixteen widescreen'] {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 1919px) and (min-width: 1200px) {
+	[class*='one large screen'] {
+		width: 6.25% !important;
+	}
+	[class*='two large screen'] {
+		width: 12.5% !important;
+	}
+	[class*='three large screen'] {
+		width: 18.75% !important;
+	}
+	[class*='four large screen'] {
+		width: 25% !important;
+	}
+	[class*='five large screen'] {
+		width: 31.25% !important;
+	}
+	[class*='six large screen'] {
+		width: 37.5% !important;
+	}
+	[class*='seven large screen'] {
+		width: 43.75% !important;
+	}
+	[class*='eight large screen'] {
+		width: 50% !important;
+	}
+	[class*='nine large screen'] {
+		width: 56.25% !important;
+	}
+	[class*='ten large screen'] {
+		width: 62.5% !important;
+	}
+	[class*='eleven large screen'] {
+		width: 68.75% !important;
+	}
+	[class*='twelve large screen'] {
+		width: 75% !important;
+	}
+	[class*='thirteen large screen'] {
+		width: 81.25% !important;
+	}
+	[class*='fourteen large screen'] {
+		width: 87.5% !important;
+	}
+	[class*='fifteen large screen'] {
+		width: 93.75% !important;
+	}
+	[class*='sixteen large screen'] {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	[class*='one computer'] {
+		width: 6.25% !important;
+	}
+	[class*='two computer'] {
+		width: 12.5% !important;
+	}
+	[class*='three computer'] {
+		width: 18.75% !important;
+	}
+	[class*='four computer'] {
+		width: 25% !important;
+	}
+	[class*='five computer'] {
+		width: 31.25% !important;
+	}
+	[class*='six computer'] {
+		width: 37.5% !important;
+	}
+	[class*='seven computer'] {
+		width: 43.75% !important;
+	}
+	[class*='eight computer'] {
+		width: 50% !important;
+	}
+	[class*='nine computer'] {
+		width: 56.25% !important;
+	}
+	[class*='ten computer'] {
+		width: 62.5% !important;
+	}
+	[class*='eleven computer'] {
+		width: 68.75% !important;
+	}
+	[class*='twelve computer'] {
+		width: 75% !important;
+	}
+	[class*='thirteen computer'] {
+		width: 81.25% !important;
+	}
+	[class*='fourteen computer'] {
+		width: 87.5% !important;
+	}
+	[class*='fifteen computer'] {
+		width: 93.75% !important;
+	}
+	[class*='sixteen computer'] {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	[class*='one tablet'] {
+		width: 6.25% !important;
+	}
+	[class*='two tablet'] {
+		width: 12.5% !important;
+	}
+	[class*='three tablet'] {
+		width: 18.75% !important;
+	}
+	[class*='four tablet'] {
+		width: 25% !important;
+	}
+	[class*='five tablet'] {
+		width: 31.25% !important;
+	}
+	[class*='six tablet'] {
+		width: 37.5% !important;
+	}
+	[class*='seven tablet'] {
+		width: 43.75% !important;
+	}
+	[class*='eight tablet'] {
+		width: 50% !important;
+	}
+	[class*='nine tablet'] {
+		width: 56.25% !important;
+	}
+	[class*='ten tablet'] {
+		width: 62.5% !important;
+	}
+	[class*='eleven tablet'] {
+		width: 68.75% !important;
+	}
+	[class*='twelve tablet'] {
+		width: 75% !important;
+	}
+	[class*='thirteen tablet'] {
+		width: 81.25% !important;
+	}
+	[class*='fourteen tablet'] {
+		width: 87.5% !important;
+	}
+	[class*='fifteen tablet'] {
+		width: 93.75% !important;
+	}
+	[class*='sixteen tablet'] {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	[class*='one mobile'] {
+		width: 6.25% !important;
+	}
+	[class*='two mobile'] {
+		width: 12.5% !important;
+	}
+	[class*='three mobile'] {
+		width: 18.75% !important;
+	}
+	[class*='four mobile'] {
+		width: 25% !important;
+	}
+	[class*='five mobile'] {
+		width: 31.25% !important;
+	}
+	[class*='six mobile'] {
+		width: 37.5% !important;
+	}
+	[class*='seven mobile'] {
+		width: 43.75% !important;
+	}
+	[class*='eight mobile'] {
+		width: 50% !important;
+	}
+	[class*='nine mobile'] {
+		width: 56.25% !important;
+	}
+	[class*='ten mobile'] {
+		width: 62.5% !important;
+	}
+	[class*='eleven mobile'] {
+		width: 68.75% !important;
+	}
+	[class*='twelve mobile'] {
+		width: 75% !important;
+	}
+	[class*='thirteen mobile'] {
+		width: 81.25% !important;
+	}
+	[class*='fourteen mobile'] {
+		width: 87.5% !important;
+	}
+	[class*='fifteen mobile'] {
+		width: 93.75% !important;
+	}
+	[class*='sixteen mobile'] {
+		width: 100% !important;
+	}
+}
+
+// ============================ GRID MEDIA QUERIES ============================ //

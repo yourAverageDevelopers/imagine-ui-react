@@ -1,19 +1,76 @@
 {
-  "name": "imagine-ui-react",
-  "version": "1.0.0",
-  "description": "React implementation of Imagine UI",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yourAverageDeveloper/imagine-ui-react.git"
-  },
-  "author": "yourAverageDeveloper",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yourAverageDeveloper/imagine-ui-react/issues"
-  },
-  "homepage": "https://github.com/yourAverageDeveloper/imagine-ui-react#readme"
+	"name": "imagine-ui-react",
+	"version": "1.0.0",
+	"description": "A huge collection of components implemented in React to help you develop apps faster",
+	"main": "lib/index.js",
+	"module": "es/index.js",
+	"license": "MIT",
+	"typings": "index.d.ts",
+	"files": [
+		"css",
+		"es",
+		"lib",
+		"umd"
+	],
+	"scripts": {
+		"build": "webpack -w",
+		"start": "node server.js",
+		"type-check": "tsc --noEmit",
+		"type-check:test": "tsc --noEmit --project ./cypress",
+		"start:cypress": "cypress open"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.3",
+		"@babel/plugin-proposal-class-properties": "^7.18.6",
+		"@babel/plugin-transform-runtime": "^7.19.1",
+		"@babel/preset-env": "^7.19.3",
+		"@babel/preset-react": "^7.18.6",
+		"@babel/preset-typescript": "^7.18.6",
+		"@types/react": "^18.0.21",
+		"@types/react-dom": "^18.0.6",
+		"@typescript-eslint/eslint-plugin": "^5.39.0",
+		"@typescript-eslint/parser": "^5.39.0",
+		"autoprefixer": "^10.4.12",
+		"awesome-typescript-loader": "^5.2.1",
+		"babel-loader": "^8.2.5",
+		"babel-plugin-import": "^1.13.5",
+		"babel-plugin-module-resolver": "^4.1.0",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.7.1",
+		"cypress": "^10.9.0",
+		"eslint": "^8.24.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-cypress": "^2.12.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.31.8",
+		"eslint-plugin-simple-import-sort": "^8.0.0",
+		"html-webpack-plugin": "^5.5.0",
+		"husky": "^8.0.1",
+		"mini-css-extract-plugin": "^2.6.1",
+		"node-sass": "^7.0.3",
+		"postcss-loader": "^7.0.1",
+		"prettier": "^2.7.1",
+		"prettier-tslint": "^0.4.2",
+		"pretty-quick": "^3.1.3",
+		"sass": "^1.55.0",
+		"sass-loader": "^13.0.2",
+		"source-map-loader": "^4.0.0",
+		"style-loader": "^3.3.1",
+		"ts-loader": "^9.4.1",
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-eslint-rules": "^5.4.0",
+		"tslint-react": "^5.0.0",
+		"typescript": "^4.8.4",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0"
+	},
+	"dependencies": {
+		"classnames": "^2.3.2",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
 }

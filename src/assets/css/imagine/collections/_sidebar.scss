@@ -1,0 +1,29 @@
+$min-width: 16rem;
+
+.ui.sidebar {
+  padding: 0.714285em 0;
+  width: $min-width;
+  height: 100vh;
+  position: absolute;
+  background: white;
+  border-right: 1px solid #eee;
+  transition: 0.5s left ease, 0.5s right ease;
+
+  &.left {
+    left: -$min-width;
+    &.active {
+      left: 0;
+    }
+  }
+
+  &.right {
+    right: -$min-width;
+    &.active {
+      right: 0;
+    }
+  }
+
+  .ui.header {
+    padding: 0 0.714285em;
+  }
+}
